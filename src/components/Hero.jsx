@@ -1,5 +1,4 @@
-import { Link as ScrollLink} from 'react-scroll'
-
+import logo from "../assets/logo.png"
 import Section from './Section'
 import Testimonials from './Testimonials'
 import hero from "../assets/hero1.png"
@@ -14,7 +13,7 @@ export const Hero = () => {
   <div className="flex flex-wrap items-center gap-5 w-full">
     <a href="javascript:void(0)">
       <img
-        src="https://readymadeui.com/readymadeui.svg"
+        src={logo}
         alt="logo"
         className="w-40 max-lg:mr-5"
       />
@@ -68,7 +67,7 @@ export const Hero = () => {
             Team
           </a>
         </li>
-        <li className="max-lg:border-b max-lg:py-3 px-3">
+        {/* <li className="max-lg:border-b max-lg:py-3 px-3">
             <ScrollLink
               to="section1"
               smooth={true}
@@ -77,7 +76,7 @@ export const Hero = () => {
             >
               Stats
             </ScrollLink>
-          </li>
+          </li> */}
         <li className="max-lg:border-b max-lg:py-3 px-3">
           <a
             href="javascript:void(0)"
@@ -175,15 +174,16 @@ export const Hero = () => {
     
     <div className="mr-auto place-self-center lg:col-span-7">
       <h1 className="max-w-2xl mb-4 text-center text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-        Payments tool for software companies
+       
+      Transforming Clicks Into Conversions.
       </h1>
       <p className="max-w-2xl mb-6 font-light text-gray-500 text-center lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-        From checkout to global sales tax compliance, companies around the world
-        use Flowbite to simplify their payment stack.
+     
+      At BuddiesCart, we do more than offer e-commerce services — we become your growth partner. From launching your store to scaling it to new heights, we craft innovative solutions that make your brand shine in the competitive digital marketplace
       </p>
       <a
         href="#"
-        className="inline-flex items-center justify-center px-5 py-3 mr-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900"
+        className="inline-flex items-center justify-center px-5 py-3 mr-5 text-base font-medium text-center text-white rounded-lg bg-blue-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-blue-800"
       >
         Get started
         <svg
@@ -237,8 +237,12 @@ export const Hero = () => {
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
         </svg>
       </div>
-      <p class="mb-3 font-medium uppercase text-white">Integrated Terminal</p>
-      <p class="text-blue-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vero ullam placeat molestiae aspernatur quasi, facere, aliquam ea quia maiores ipsum soluta cumque voluptates.</p>
+      <p class="mb-3 font-medium uppercase text-white">Online Store Development
+      </p>
+      <p class="text-blue-200">  Custom design and development on platforms like Shopify, WooCommerce, and Magento.
+Mobile-friendly, fast-loading, and user-centric designs for maximum conversions.
+Integration with payment gateways, logistics, and CRM tools.
+</p>
     </div>
     <div class="border-white/40 relative border-4 px-4 pt-14 pb-8">
       <div class="absolute -top-8 left-8 bg-blue-900 px-4 text-white">
@@ -246,8 +250,11 @@ export const Hero = () => {
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
         </svg>
       </div>
-      <p class="mb-3 font-medium uppercase text-white">Integrated Terminal</p>
-      <p class="text-blue-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vero ullam placeat molestiae aspernatur quasi, facere, aliquam ea quia maiores ipsum soluta cumque voluptates.</p>
+      <p class="mb-3 font-medium uppercase text-white"> Product & Inventory Management</p>
+      <p class="text-blue-200"> Product listing with compelling descriptions and optimized images.<br/>
+Seamless inventory tracking to prevent stockouts and overstocking.
+Efficient order management to enhance your operational efficiency.
+</p>
     </div>
     <div class="border-white/40 relative border-4 px-4 pt-14 pb-8">
       <div class="absolute -top-8 left-8 bg-blue-900 px-4 text-white">
@@ -255,8 +262,12 @@ export const Hero = () => {
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
         </svg>
       </div>
-      <p class="mb-3 font-medium uppercase text-white">Integrated Terminal</p>
-      <p class="text-blue-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vero ullam placeat molestiae aspernatur quasi, facere, aliquam ea quia maiores ipsum soluta cumque voluptates.</p>
+      <p class="mb-3 font-medium uppercase text-white"> Digital Marketing Services</p>
+      <p class="text-blue-200"> Search Engine Optimization (SEO) to improve your store’s visibility.
+Targeted ad campaigns (PPC, Google Ads, and Social Media Ads) for measurable results.
+Social media management to connect with your audience and build your brand.
+Email marketing campaigns that engage and convert.
+</p>
     </div>
     <div class="border-white/40 relative border-4 px-4 pt-14 pb-8">
       <div class="absolute -top-8 left-8 bg-blue-900 px-4 text-white">
@@ -264,8 +275,10 @@ export const Hero = () => {
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
         </svg>
       </div>
-      <p class="mb-3 font-medium uppercase text-white">Integrated Terminal</p>
-      <p class="text-blue-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vero ullam placeat molestiae aspernatur quasi, facere, aliquam ea quia maiores ipsum soluta cumque voluptates.</p>
+      <p class="mb-3 font-medium uppercase text-white"> Customer Experience Solutions</p>
+      <p class="text-blue-200">  Tailored chat and email support systems for your customers.
+Proactive solutions for improving satisfaction and retention.
+</p>
     </div>
     <div class="border-white/40 relative border-4 px-4 pt-14 pb-8">
       <div class="absolute -top-8 left-8 bg-blue-900 px-4 text-white">
@@ -273,8 +286,10 @@ export const Hero = () => {
           <path stroke-linecap="round" stroke-linejoin="round" d="M6.75 7.5l3 2.25-3 2.25m4.5 0h3m-9 8.25h13.5A2.25 2.25 0 0021 18V6a2.25 2.25 0 00-2.25-2.25H5.25A2.25 2.25 0 003 6v12a2.25 2.25 0 002.25 2.25z" />
         </svg>
       </div>
-      <p class="mb-3 font-medium uppercase text-white">Integrated Terminal</p>
-      <p class="text-blue-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni vero ullam placeat molestiae aspernatur quasi, facere, aliquam ea quia maiores ipsum soluta cumque voluptates.</p>
+      <p class="mb-3 font-medium uppercase text-white"> Data-Driven Analytics</p>
+      <p class="text-blue-200"> Insights and reporting that help you understand customer behavior and sales trends.
+Performance tracking to identify opportunities for growth.
+</p>
     </div>
   </div>
 </section>
@@ -327,11 +342,17 @@ export const Hero = () => {
           {/* Title */}
           <div className="space-y-2 md:space-y-4">
             <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
-              Collaborative tools to design user experience
+              
+
+            Why E-commerce Businesses Trust BuddiesCart
+
             </h2>
             <p className="text-gray-500 dark:text-neutral-500">
-              Use our tools to explore your ideas and make your vision come
-              true. Then share your work easily.
+            We believe in creating long-term partnerships. Our clients value us because we:
+            Help reduce operational challenges so they can focus on growth. <br/>
+Keep up with evolving e-commerce trends to ensure their success.<br/>
+Deliver measurable results through continuous optimization.<br/>
+
             </p>
           </div>
           {/* End Title */}
