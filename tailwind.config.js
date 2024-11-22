@@ -24,3 +24,26 @@ module.exports = {
   },
   plugins: [],
 };
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      animation: {
+        'scroll-line': 'scroll-line 1.5s linear forwards',
+        'cart-move': 'cart-move 1.5s linear forwards',
+      },
+      keyframes: {
+        'scroll-line': {
+          from: { transform: 'translateX(-100%)' },
+          to: { transform: 'translateX(0)' },
+        },
+        'cart-move': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(calc(100vw - 2rem))' },
+        },
+      },
+    },
+  },
+  plugins: [],
+};
