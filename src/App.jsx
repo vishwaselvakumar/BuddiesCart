@@ -2,10 +2,7 @@ import React, { useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Hero as V } from './components/Hero';
 import Footer from './components/Footer';
-import Section from './components/Section';
-import Testimonials from './components/Testimonials';
 import { Contact } from "./components/contact/Contact";
-import { Blog } from "./components/Blog";
 import { About } from "./components/About";
 import AOS from "aos"; // Import AOS
 import "aos/dist/aos.css"; // Import AOS styles
