@@ -32,8 +32,14 @@ export default {
       animation: {
         'scroll-line': 'scroll-line 1.5s linear forwards',
         'cart-move': 'cart-move 1.5s linear forwards',
+        'gradient-shift': 'gradient-shift 8s ease infinite',
       },
       keyframes: {
+        'gradient-shift': {
+          '0%': { backgroundPosition: '0% 50%' },
+          '50%': { backgroundPosition: '100% 50%' },
+          '100%': { backgroundPosition: '0% 50%' },
+        },
         'scroll-line': {
           from: { transform: 'translateX(-100%)' },
           to: { transform: 'translateX(0)' },
@@ -47,3 +53,5 @@ export default {
   },
   plugins: [],
 };
+
+

@@ -489,7 +489,7 @@ Analytics and reporting to track performance and ROI.
       </button>
     </div>
 
-    <div data-aos="fade-left">
+    <div data-aos="fade-up">
     <div className="lg:h-[480px] flex items-center">
       <img
         src="https://readymadeui.com/team-image.webp"

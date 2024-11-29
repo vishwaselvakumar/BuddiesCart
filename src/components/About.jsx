@@ -4,7 +4,7 @@ import React from 'react';
 export const About = () => {
   return (
     <>
-      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-[80px]">
         {/* Section Header */}
         <div className="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
           <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-neutral-200">
@@ -128,6 +128,19 @@ export const About = () => {
           </div>
         </div>
       </div>
+
+      <div className="relative h-72 overflow-hidden bg-indigo-600 sm:px-20">
+  <div className="z-10 flex h-full flex-col items-center justify-center space-y-4">
+    <h1 className="text-center text-5xl font-bold text-white">
+      A revolution in Heroes
+    </h1>
+    <p className="text-lg text-white">With background fillers</p>
+  </div>
+  <div className="-z-1 absolute bottom-3 left-3 h-24 w-24 rounded-full bg-white bg-gradient-to-b from-white to-indigo-600 opacity-20" />
+  <div className="-z-1 absolute -top-10 left-1/2 h-24 w-24 rounded-full bg-white bg-gradient-to-b from-white to-indigo-600 opacity-20" />
+</div>
+
+
     </>
   );
 };
