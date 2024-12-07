@@ -309,18 +309,18 @@ export const Hero = () => {
 
 <>
   {/* Stats */}
-  <div className="bg-neutral-900 mt-9">
-    <div className="max-w-5xl px-4 xl:px-0 py-10 mx-auto">
+  <div className="mt-2 mb-10">
+    <div className="max-w-6xl  xl:px-0 py-5 mx-auto">
       <div className="border border-neutral-800 rounded-xl">
-        <div className="p-4 lg:p-8 bg-gradient-to-bl from-neutral-800 via-neutral-900 to-neutral-950 rounded-xl">
-          <div className="grid grid-cols-1 sm:grid-cols-3 items-center gap-y-20 gap-x-12">
+        <div className="p-5 lg:p-18  bg-gradient-to-bl from-neutral-800 via-neutral-900 to-neutral-950 rounded-xl">
+          <div className="grid grid-cols-1 sm:grid-cols-3 items-center gap-y-20 gap-x-12 m-2">
             {/* Stats */}
             <div className="relative text-center first:before:hidden before:absolute before:-top-full sm:before:top-1/2 before:start-1/2 sm:before:-start-6 before:w-px before:h-20 before:bg-neutral-800 before:rotate-[60deg] sm:before:rotate-12 before:transform sm:before:-translate-y-1/2 before:-translate-x-1/2 sm:before:-translate-x-0 before:mt-3.5 sm:before:mt-0">
               <svg
                 className="shrink-0 size-6 sm:size-8 text-[#ff0] mx-auto"
                 xmlns="http://www.w3.org/2000/svg"
                 width={24}
-                height={24}
+                height={24}                  
                 viewBox="0 0 24 24"
                 fill="none"
                 stroke="currentColor"
@@ -436,35 +436,47 @@ export const Hero = () => {
           className="w-full object-contain rounded-md shadow-[0_14px_40px_-11px_rgba(93,96,127,0.2)]"
         />
       </div>
-      <div>
-        <h3 className="text-gray-800 text-xl font-bold mb-4">Customization</h3>
-        <p className="text-gray-600 text-sm">
-          Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
-          consequat id. Dolore et sint mollit in nisi tempor culpa consectetur.
-          Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
-          consequat id.
-        </p>
-        <button
-          type="button"
-          className="px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300"
-        >
-          Read More
-        </button>
-      </div>
-      <div className="max-md:order-1">
+     
+      <div className="p-5 items-center">
+        <div className="flex items-center justify-center">
+  <h3 className="text-gray-800 text-xl font-bold mb-4">Customization</h3>
+  </div>
+  <p className="text-gray-600 text-sm text-justify">
+    Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
+    consequat id. Dolore et sint mollit in nisi tempor culpa consectetur.
+    Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
+    consequat id.
+  </p>
+  <div className="flex justify-center items-center">
+    <button
+      type="button"
+      className="px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300"
+    >
+      Read More
+    </button>
+  </div>
+</div>
+
+
+      <div className="max-md:order-1 p-5">
+          <div className="flex items-center justify-center">
         <h3 className="text-gray-800 text-xl font-bold mb-4">Performance</h3>
-        <p className="text-gray-600 text-sm">
+        </div>
+        <p className="text-gray-600 text-sm text-justify p-2">
           Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
           consequat id. Dolore et sint mollit in nisi tempor culpa consectetur.
           Qui elit labore in nisi dolore tempor anim laboris ipsum ad ad
           consequat id.
         </p>
+        <div className="flex items-center justify-center">
         <button
           type="button"
           className="px-6 py-2 mt-8 rounded text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-600 bg-blue-600 hover:bg-transparent hover:text-black transition-all duration-300"
         >
+          
           Read More
         </button>
+        </div>
       </div>
       <div>
         <img
@@ -489,7 +501,7 @@ export const Hero = () => {
 
       <>
         {/* Features */}
-        <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-20">
+        <div className="max-w-[74rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mb-20">
           {/* Grid */}
           <div className="lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
             <div className="lg:col-span-7">

@@ -1,8 +1,14 @@
 // import React from "react";
 // import Navbar from "../../Navigation/Navbar";
 // import Footer from "../../Footer/Footer";
+import { useEffect } from "react";
 
 const Contact = () => {
+
+  useEffect(() => {
+    // Scroll the window to the top whenever the component is rendered
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       {/* <Navbar /> */}
