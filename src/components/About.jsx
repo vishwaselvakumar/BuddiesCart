@@ -13,10 +13,10 @@ export const About = () => {
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-[80px]">
         {/* Section Header */}
         <div className="mx-auto max-w-2xl mb-8 lg:mb-14 text-center">
-          <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold dark:text-neutral-200">
+          <h2 className="text-3xl lg:text-4xl text-gray-800 font-bold ">
             About Us
           </h2>
-          <p className="mt-3 text-gray-800 dark:text-neutral-200">
+          <p className="mt-3 text-gray-800 ">
             The powerful and flexible theme for all kinds of businesses.
           </p>
         </div>
@@ -26,7 +26,7 @@ export const About = () => {
           {/* Feature 1 */}
           <div className="col-span-6 sm:col-span-4 text-center">
             <svg
-              className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-neutral-200"
+              className="mx-auto h-auto w-7 md:w-9 text-gray-800 "
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -42,7 +42,7 @@ export const About = () => {
               <path d="M8 18h.01" />
             </svg>
             <div className="mt-2 sm:mt-6">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-neutral-200">
+              <h3 className="text-lg font-semibold text-gray-800 ">
                 Responsive
               </h3>
             </div>
@@ -51,7 +51,7 @@ export const About = () => {
           {/* Feature 2 */}
           <div className="col-span-6 sm:col-span-4 text-center">
             <svg
-              className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-neutral-200"
+              className="mx-auto h-auto w-7 md:w-9 text-gray-800"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -68,7 +68,7 @@ export const About = () => {
               <circle cx="7" cy="7" r="3" />
             </svg>
             <div className="mt-2 sm:mt-6">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-neutral-200">
+              <h3 className="text-lg font-semibold text-gray-800 ">
                 Customizable
               </h3>
             </div>
@@ -77,7 +77,7 @@ export const About = () => {
           {/* Feature 3 */}
           <div className="col-span-6 col-start-4 sm:col-span-4 text-center">
             <svg
-              className="mx-auto h-auto w-7 md:w-9 text-gray-800 dark:text-neutral-200"
+              className="mx-auto h-auto w-7 md:w-9 text-gray-800"
               xmlns="http://www.w3.org/2000/svg"
               width="24"
               height="24"
@@ -92,7 +92,7 @@ export const About = () => {
               <path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1" />
             </svg>
             <div className="mt-2 sm:mt-6">
-              <h3 className="text-lg font-semibold text-gray-800 dark:text-neutral-200">
+              <h3 className="text-lg font-semibold text-gray-800 ">
                 24/7 Support
               </h3>
             </div>

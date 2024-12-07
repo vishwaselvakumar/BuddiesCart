@@ -63,7 +63,7 @@ export const Nav = () => {
         <nav
           className={`${
             menuOpen ? "block" : "hidden"
-          } lg:flex flex-col lg:flex-row items-start lg:items-center gap-4 bg-white lg:bg-transparent absolute lg:relative top-0 left-0 lg:top-auto lg:left-auto w-full lg:w-auto h-screen lg:h-auto p-6 lg:p-0 lg:space-y-0 space-y-6 lg:shadow-none shadow-md z-50`}
+          } lg:flex flex-col lg:flex-row items-start lg:items-center gap-8 bg-white lg:bg-transparent absolute lg:relative top-0 left-0 lg:top-auto lg:left-auto w-full lg:w-auto h-screen lg:h-auto p-6 lg:p-0 lg:space-y-0 space-y-6 lg:shadow-none shadow-md z-50`}
         >
           {/* Exit Button */}
           <button
@@ -133,12 +133,12 @@ export const Nav = () => {
               </Link>
             </li>
           </ul>
-          <div className="flex flex-col lg:flex-row lg:items-center space-y-4 lg:space-y-0 lg:space-x-6">
+          <div className="flex flex-col lg:flex-row lg:items-center space-y-9 lg:space-y-0 lg:space-x-6">
             <button
               className="px-4 py-2 text-[15px] rounded font-semibold text-[#007bff] border-2 border-[#007bff] hover:bg-[#007bff] transition-all ease-in-out duration-300 bg-transparent hover:text-white"
               onClick={closeMenu}
             >
-              Sign up
+              Connect Us
             </button>
           </div>
         </nav>
