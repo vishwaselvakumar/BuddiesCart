@@ -1,7 +1,13 @@
 
 import React from 'react';
+import { useEffect } from 'react';
 
 export const About = () => {
+
+  useEffect(() => {
+    // Scroll the window to the top whenever the component is rendered
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto mt-[80px]">

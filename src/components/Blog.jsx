@@ -1,7 +1,16 @@
 import React from 'react'
+import { useEffect } from 'react';
 
 export const Blog = () => {
+
+
+
+  useEffect(() => {
+    // Scroll the window to the top whenever the component is rendered
+    window.scrollTo(0, 0);
+  }, []);
   return (
+
     <>
    
    <>
