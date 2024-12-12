@@ -201,15 +201,15 @@ export const Hero = () => {
 </section> */}
 
 <section
-  className="bg-white dark:bg-gray-900 mt-[95px] overflow-x-hidden" 
+  className="bg-white  mt-[95px] overflow-x-hidden" 
   id="saheel"
 >
   <div className="grid max-w-screen-xl w-full px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-4 lg:grid-cols-12">
     <div className="mr-auto place-self-center lg:col-span-7">
-      <h1 className="max-w-[80%] sm:max-w-[60%] lg:max-w-[80%] mb-2 mx-auto text-center lg:text-left text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+      <h1 className="max-w-[80%] sm:max-w-[60%] lg:max-w-[80%] mb-2 mx-auto text-center lg:text-left text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl ">
         Your Ultimate Destination for
       </h1>
-      <h1 className="max-w-[80%] sm:max-w-[60%] lg:max-w-[80%] mb-4 mx-auto text-center lg:text-left text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white pt-0">
+      <h1 className="max-w-[80%] sm:max-w-[60%] lg:max-w-[80%] mb-4 mx-auto text-center lg:text-left text-3xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl  pt-0">
         <span className="whitespace-nowrap">
           <span className="text-[#12b5d8]">E-commerce</span><br /> Excellence!
         </span>
@@ -238,7 +238,7 @@ export const Hero = () => {
         </a>
         <a
           href="#"
-          className="inline-flex items-center justify-center px-2 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 dark:text-white dark:border-gray-700 dark:hover:bg-gray-700 dark:focus:ring-gray-800"
+          className="inline-flex items-center justify-center px-2 py-3 text-base font-medium text-center text-gray-900 border border-gray-300 rounded-lg hover:bg-gray-100 focus:ring-4 focus:ring-gray-100  "
         >
           Speak to Sales
         </a>
@@ -546,13 +546,13 @@ export const Hero = () => {
               <div className="space-y-6 sm:space-y-8">
                 {/* Title */}
                 <div className="space-y-2 md:space-y-4">
-                  <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
+                  <h2 className="font-bold text-3xl lg:text-4xl text-gray-800 ">
 
 
                     Why E-commerce Businesses Trust BuddiesCart
 
                   </h2>
-                  <p className="text-gray-500 dark:text-neutral-500">
+                  <p className="text-black ">
                     We believe in creating long-term partnerships. Our clients value us because we:
                     Help reduce operational challenges so they can focus on growth. <br />
                     Keep up with evolving e-commerce trends to ensure their success.<br />
