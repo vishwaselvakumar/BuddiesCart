@@ -63,7 +63,7 @@ export const Nav = () => {
         <nav
           className={`${
             menuOpen ? "block" : "hidden"
-          } lg:flex flex-col lg:flex-row items-start lg:items-center gap-4 bg-white lg:bg-transparent absolute lg:relative top-0 left-0 lg:top-auto lg:left-auto w-full lg:w-auto h-screen lg:h-auto p-6 lg:p-0 lg:space-y-0 space-y-6 lg:shadow-none shadow-md z-50`}
+          } lg:flex flex-col lg:flex-row items-start lg:items-center gap-14 space-x-5 bg-white lg:bg-transparent absolute lg:relative top-0 left-0 lg:top-auto lg:left-auto w-full lg:w-auto h-screen lg:h-auto p-6 lg:p-0 lg:space-y-6 lg:shadow-none shadow-md z-50`}
         >
           {/* Exit Button */}
           <button
@@ -86,7 +86,7 @@ export const Nav = () => {
             </svg>
           </button>
 
-          <ul className="lg:flex gap-4">
+          <ul className="lg:flex gap-8">
             <li>
               <Link
                 to="/"
